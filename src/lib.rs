@@ -75,7 +75,8 @@ impl Plugin for TextInputPlugin {
     TextFont,
     TextInputLayoutInfo,
     TextInputStyle,
-    TextColor
+    TextColor,
+    TextInputContents,
 )]
 #[component(
     on_add = on_add_textinputnode,
